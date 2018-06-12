@@ -1,0 +1,22 @@
+{
+    "name": "leonsw/laravel-remote-service",
+    "description": "service",
+    "type": "library",
+    "keywords": ["leonsw","laravel","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Kids Return"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Leonsw\\Service\\": "src"
+        }
+    },
+    "extra": {
+      "branch-alias": {
+          "dev-master": "1.0.x-dev"
+      }
+  }
+}
