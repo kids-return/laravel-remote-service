@@ -9,7 +9,7 @@ class Service
         if (empty($prefix)) {
             throw new \Exception('Environment `SERVICE_ID` undefined');
         }
-        dispatch((new Event($prefix . '.' . $event, $params)));
+        return dispatch((new Event($prefix . '.' . $event, $params)));
     }
     
 }
